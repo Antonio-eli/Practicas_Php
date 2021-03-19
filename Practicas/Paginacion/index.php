@@ -32,7 +32,7 @@ $articulos = $articulos->fetchAll();
 
 // Comprobamos que haya articulos, sino entonces redirigimos.
 if (!$articulos) {
-	header('Location: http://localhost/tutoriales/curso_php/Practicas/paginacion/');
+	header('Location: index.php');
 }
 
 // Calculamos el total de articulos, para despues conocer el numero de paginas de la paginacion.
